@@ -6,12 +6,12 @@ terraform {
     }
   }
 
-backend "azurerm" {
-    resource_group_name  = "bs-rg1"
-    storage_account_name = "bsstg1920"
-    container_name       = "bsgame"
-    key                  = "terraform.tfstate"
-  }
+#backend "azurerm" {
+ #   resource_group_name  = "bs-rg1"
+  #  storage_account_name = "bsstg1920"
+   # container_name       = "bsgame"
+    #key                  = "terraform.tfstate"
+  #}
 }
 provider "azurerm" {
   features {
